@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Message() {
+function Message({message}) {
   return (
-    <div>Message</div>
+    <div>
+        <p className='message'> {message} </p>
+    </div>
   )
 }
 
