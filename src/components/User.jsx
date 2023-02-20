@@ -1,8 +1,11 @@
 import React from 'react'
 
-function User() {
+function User({user}) {
   return (
-    <div>User</div>
+    <span className="user">
+            <span className="name">{user.name}</span>
+            <span className="handle">{user.handle}</span>
+    </span>
   )
 }
 
