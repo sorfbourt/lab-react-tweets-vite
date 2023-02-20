@@ -1,8 +1,10 @@
 import React from 'react'
 
-function ProfileImage() {
+function ProfileImage({image}) {
   return (
-    <div>ProfileImage</div>
+    <div>
+        <img src={image} className='profile' alt='profile' />
+    </div>
   )
 }
 
